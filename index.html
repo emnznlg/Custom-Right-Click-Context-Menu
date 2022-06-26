@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Right Click Context Menu</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <ul class="menu">
+          <li class="item">
+            <i class="fas fa-eye"></i>
+            <span>Preview</span>
+          </li>
+          <li class="item share">
+            <div>
+              <i class="fas fa-share"></i>
+              <span>Share</span>
+            </div>
+            <i class="fas fa-angle-right"></i>
+            <ul class="share-menu">
+              <li class="item">
+                <i class="fa-brands fa-twitter"></i>
+                <span>Twitter</span>
+              </li>
+              <li class="item">
+                <i class="fa-brands fa-instagram"></i>
+                <span>Instagram</span>
+              </li>
+              <li class="item">
+                <i class="fa-brands fa-dribbble"></i>
+                <span>Dribbble</span>
+              </li>
+              <li class="item">
+                <i class="fa-brands fa-telegram"></i>
+                <span>Telegram</span>
+              </li>
+            </ul>
+          </li>
+          <li class="item">
+            <i class="fas fa-link"></i>
+            <span>Get Link</span>
+          </li>
+          <li class="item">
+            <i class="fas fa-edit"></i>
+            <span>Rename</span>
+          </li>
+          <li class="item">
+            <i class="fas fa-trash"></i>
+            <span>Delete</span>
+          </li>
+        </ul>
+        <div class="setting">
+          <li class="item">
+            <i class="fas fa-gear"></i>
+            <span>Settings</span>
+          </li>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
